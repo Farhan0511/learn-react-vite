@@ -1,13 +1,32 @@
-# React + Vite
+# Belajar React + Vite dengan Atomic Design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repository ini digunakan untuk belajar React dengan pendekatan Atomic Design untuk pengaturan struktur komponen agar lebih rapi, reusable, dan scalable.
 
-Currently, two official plugins are available:
+Project dibuat menggunakan React + Vite dengan dukungan HMR (Hot Module Replacement) dan konfigurasi dasar ESLint.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Tujuan Project
 
-## React Compiler
+- Belajar dasar React dengan environment Vite
+- Menerapkan konsep Atomic Design dalam struktur komponen
+- Membiasakan diri dengan arsitektur front-end yang digunakan di project production
+
+## 🧩 Konsep Atomic Design
+
+Struktur Atomic Design terdiri dari:
+
+- **Atoms** — komponen kecil & dasar (Button, Input, Label)
+- **Molecules** — gabungan beberapa atom (Form Input Group)
+- **Organisms** — bagian UI yang lebih kompleks (Navbar, Form Section)
+- **Templates** — layout halaman tanpa konten dinamis
+- **Pages** — halaman akhir yang ditampilkan ke user
+
+## 📦 Plugin Resmi React untuk Vite
+- @vitejs/plugin-react (Babel / oxc)
+- @vitejs/plugin-react-swc (SWC – lebih cepat)
+
+## 💡 Catatan Belajar
+- Komponen dibuat bertahap: Atom → Molecule → Organism → Template → Page
+- Fokus pada reusable komponen & struktur yang bersih
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
